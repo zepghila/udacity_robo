@@ -1,0 +1,10 @@
+Make the file executable: In the terminal, navigate to the directory where the build_and_launch_OSTYPE.sh file is located. 
+
+Then, run the following command to make the file executable (replace OSTYPE with "ubuntu" or "macos" accordingly):
+chmod +x build_and_launch_OSTYPE.sh
+
+Run the build_and_launch_OSTYPE.sh file: 
+Execute the build_and_launch_OSTYPE.sh file by running the following command:
+./build_and_launch_OSTYPE.sh
+
+This will run the commands in the build_and_launch_OSTYPE.sh file sequentially, building the project and launching Gazebo with the specified world file.
